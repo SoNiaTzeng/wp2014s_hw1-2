@@ -1,0 +1,77 @@
+
+
+ *{ background-color : #FFFFCC ;}
+ * { background-position: center; margin: 1em;}
+
+ .menu a{
+  font-color:#CD5C5C;
+  font-size:20px;
+  color: blue;
+}
+
+
+
+
+header {
+	margin:0 auto;
+	width:1200px;
+	height:250px;
+}
+
+
+
+ img{width:256px;height:192px
+ } 
+
+
+
+.nav{
+  background: #CD5C5C;
+}
+
+
+
+/*選單功能*/
+.nav>li{
+  display: inline-block;
+  position: relative;
+  border: 2px solid red;
+  border-right: 2px solid red;
+  padding: .5em .5em;
+  background: #CD5C5C;
+  
+}
+
+
+.submenu{
+  position: absolute;
+  display: none;
+
+  left: -1px; top: 100%; width: 100%;
+  text-align: center;
+  background: #CD5C5C;
+  border: 1px solid red;
+  width: 100px;
+}
+
+.nav>li:hover .submenu{
+  display: block;
+}
+
+.submenu li{
+  padding: 1em 1;
+  color: gray;
+  cursor: pointer;
+  list-style-type : none;
+}
+
+.submenu li:hover{
+  color: #CD5C5C;
+}
+
+
+.footer p{
+  font-color:black;
+  font-size:20px;
+  color: blue;
+}
